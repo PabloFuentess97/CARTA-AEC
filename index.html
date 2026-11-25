@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#132522">
+<meta name="description" content="Expediente de salida de una compañera que deja huella en la Fábrica de Municiones de Granada, desde el Almacén General.">
+<title>Expediente de salida · Alejandra</title>
+<style>
+:root{color-scheme:light;--forest:#142824;--forest2:#1b3731;--paper:#f5f0e5;--paper2:#ece4d4;--ink:#192c27;--muted:#68756d;--red:#ad4d45;--gold:#e3bd36;--line:#d9d0bf;--serif:Georgia,"Times New Roman",serif;--sans:"Avenir Next",Avenir,"Segoe UI",sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;min-height:100vh;color:var(--ink);font-family:var(--sans);background-color:var(--forest);background-image:radial-gradient(ellipse at 50% 8%,rgba(125,164,139,.18),transparent 38rem),radial-gradient(ellipse at 86% 35%,rgba(227,189,54,.10),transparent 28rem),linear-gradient(90deg,transparent 49.95%,rgba(255,255,255,.018) 50%,transparent 50.05%),linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px);background-size:auto,auto,100% 100%,100% 42px}
+button{font:inherit}
+button:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+a{color:inherit}
+.skip{position:absolute;top:-60px;left:16px;z-index:100;padding:12px 18px;background:white;color:var(--ink);border-radius:8px}.skip:focus{top:12px}
+.shell{width:min(100% - 36px,1100px);margin:auto;padding:28px 0 72px}
+.masthead{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:0 4px 22px;color:#e5e8da}
+.brand{display:flex;align-items:center;gap:12px;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase}
+.brand-mark{display:grid;place-items:center;width:40px;height:40px;border:1px solid var(--gold);border-radius:50%;color:#f0d65b;font:800 .58rem var(--sans);letter-spacing:.02em}
+.mast-meta{color:#aabbb0;font-size:.68rem;letter-spacing:.13em;text-align:right;text-transform:uppercase}
+.frame{position:relative;padding:9px;border:1px solid rgba(227,189,54,.58);border-radius:13px;background:rgba(8,21,18,.25);box-shadow:0 35px 100px rgba(0,0,0,.29)}
+.folder{position:relative;overflow:hidden;border-radius:7px;background:var(--paper);box-shadow:0 4px 0 rgba(255,255,255,.16) inset}
+.file-tab{position:absolute;z-index:5;top:-1px;left:clamp(22px,7vw,76px);padding:9px 18px 10px;border-radius:0 0 8px 8px;color:#24352b;background:var(--gold);font-size:.62rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.cover{position:relative;min-height:620px;display:grid;grid-template-columns:1.2fr .8fr;align-items:center;gap:35px;padding:104px clamp(28px,7vw,90px) 66px;isolation:isolate;background:linear-gradient(118deg,#f6f1e7 0 62%,#eee6d7 62% 100%);transition:opacity .5s,transform .8s cubic-bezier(.2,.8,.2,1)}
+.cover:before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 88% 38%,rgba(227,189,54,.28),transparent 18rem)}
+.cover:after{content:"";position:absolute;top:0;bottom:0;left:24px;width:1px;background:rgba(173,77,69,.18)}
+.cover-copy{max-width:630px}
+.eyebrow{display:flex;align-items:center;gap:11px;color:var(--red);font-size:.68rem;font-weight:800;letter-spacing:.2em;text-transform:uppercase}
+.eyebrow:before{content:"";width:30px;height:2px;background:var(--red)}
+.cover h1{max-width:720px;margin:25px 0 17px;color:var(--ink);font:400 clamp(3.4rem,9vw,7.2rem)/.86 var(--serif);letter-spacing:-.075em}
+.cover h1 span{display:block;color:var(--red);font-style:italic}
+.cover-deck{max-width:485px;margin:28px 0 0;color:#52635a;font:1.12rem/1.65 var(--serif)}
+.cover-deck strong{color:var(--ink);font-weight:500}
+.cover-stamp{position:relative;display:grid;place-items:center;justify-self:center;width:min(100%,260px);aspect-ratio:1;border:2px solid #ad8c1d;border-radius:50%;color:#3d3a24;background:radial-gradient(circle at 34% 28%,#f8df78,#e3bd36);box-shadow:0 14px 30px rgba(122,93,22,.13);transform:rotate(11deg)}
+.cover-stamp:before,.cover-stamp:after{content:"";position:absolute;inset:10px;border:1px solid rgba(71,62,30,.45);border-radius:50%}
+.cover-stamp:after{inset:22px;border-style:dashed;border-color:rgba(71,62,30,.34)}
+.stamp-inner{text-align:center;z-index:1}
+.stamp-top,.stamp-bottom{font-size:.63rem;font-weight:800;letter-spacing:.19em;text-transform:uppercase}
+.stamp-letter{display:block;margin:7px 0 4px;font:5rem/.9 var(--serif)}
+.cover-ref{display:flex;gap:22px;margin-top:43px;padding-top:16px;border-top:1px solid var(--line);color:#68756d;font-size:.65rem;letter-spacing:.11em;text-transform:uppercase}
+.cover-ref strong{display:block;margin-top:5px;color:var(--ink);font-size:.77rem;letter-spacing:.04em}
+.open-file{display:inline-flex;align-items:center;gap:12px;min-height:54px;margin-top:34px;padding:0 20px;border:0;border-radius:4px;color:#263427;background:var(--gold);box-shadow:0 10px 25px rgba(202,165,27,.2);cursor:pointer;font-size:.85rem;font-weight:800;letter-spacing:.02em;transition:transform .2s,background .2s}
+.open-file:hover{transform:translateY(-2px);background:#f0d358}
+.open-file svg{width:18px;height:18px}
+.case-content{display:none;opacity:0;animation:reveal .7s .2s forwards}
+.open .cover{position:absolute;inset:0;z-index:4;display:block;min-height:0;padding:0;opacity:0;transform:translateY(-22px) scale(.985);pointer-events:none}
+.open .case-content{display:block}
+@keyframes reveal{to{opacity:1}}
+.document-top{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;padding:34px clamp(24px,7vw,86px) 23px;border-bottom:1px solid var(--line)}
+.doc-label{color:var(--red);font-size:.64rem;font-weight:800;letter-spacing:.19em;text-transform:uppercase}
+.doc-number{color:#7b877c;font:italic .86rem var(--serif)}
+.route{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:16px;margin:30px clamp(24px,7vw,86px);padding:19px 22px;border:1px solid #dccb78;background:#faf4d9}
+.route-stop span{display:block;color:#7d897f;font-size:.59rem;font-weight:800;letter-spacing:.15em;text-transform:uppercase}
+.route-stop strong{display:block;margin-top:7px;color:var(--ink);font:1.1rem var(--serif)}
+.route-dash{display:flex;align-items:center;gap:6px;color:#a88712}
+.route-dash i{display:block;width:5px;height:5px;border-radius:50%;background:var(--gold)}
+.route-dash svg{width:22px;height:22px}
+.route-status{grid-column:1/-1;margin-top:4px;padding-top:12px;border-top:1px dashed #d6c771;color:#7d6255;font-size:.7rem;letter-spacing:.07em;text-transform:uppercase}
+.route-status b{color:var(--red)}
+.incident-trigger{margin-left:10px;padding:5px 9px;border:1px solid #d6c771;border-radius:3px;background:#fff9df;color:#65541b;font:700 .63rem var(--sans);letter-spacing:.04em;cursor:pointer}.incident-trigger:hover{background:#f5e7a7}.incident-message{display:block;margin-top:8px;color:#685b3e;font:italic .92rem/1.45 var(--serif);text-transform:none;letter-spacing:0}
+.article-layout{display:grid;grid-template-columns:180px minmax(0,1fr);gap:clamp(24px,6vw,72px);padding:24px clamp(24px,7vw,86px) 68px}
+.side-note{position:sticky;top:20px;align-self:start;padding-top:10px}
+.side-note .index{margin:0 0 16px;color:var(--red);font-size:.63rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
+.side-note blockquote{margin:0;color:#65756b;font:italic 1.07rem/1.55 var(--serif)}
+.side-note .source{display:block;margin-top:12px;color:#8e978e;font:600 .6rem var(--sans);letter-spacing:.1em;text-transform:uppercase}
+.letter-copy{max-width:690px}
+.greeting{margin:0 0 23px;color:var(--red);font:italic 1.6rem var(--serif)}
+.letter-copy p{margin:0 0 19px;color:#34473e;font:1.06rem/1.82 var(--serif)}
+.letter-copy .quiet-break{margin:36px 0 38px;padding:17px 0 17px 21px;border-left:2px solid var(--gold);color:#5e6b61;font:italic 1.28rem/1.55 var(--serif)}
+.section-heading{display:flex;align-items:center;gap:14px;margin:45px 0 18px;color:#748077;font-size:.65rem;font-weight:800;letter-spacing:.18em;text-transform:uppercase}
+.section-heading:after{content:"";height:1px;flex:1;background:#d9d0bf}
+.exit-record{position:relative;padding:25px 27px 21px;border:1px solid #d3bc4f;background:#f8f0cf}
+.exit-record:before,.exit-record:after{content:"";position:absolute;top:10px;width:10px;height:10px;border-radius:50%;background:var(--paper);box-shadow:inset 0 1px 3px rgba(0,0,0,.16)}
+.exit-record:before{left:10px}.exit-record:after{right:10px}
+.exit-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:17px;padding-bottom:13px;border-bottom:1px solid #d6c976}
+.exit-head h2{margin:0;color:var(--forest);font:1.3rem var(--serif)}
+.exit-head span{padding:5px 7px;color:#51451d;background:#e6cf63;font-size:.58rem;font-weight:800;letter-spacing:.14em;text-align:right;text-transform:uppercase}
+.record-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 24px}
+.record-item{padding:11px 0;border-bottom:1px dashed #d7cc8c}
+.record-item:nth-last-child(-n+2){border-bottom:0}
+.record-item small{display:block;margin-bottom:5px;color:#7e796c;font-size:.59rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase}
+.record-item strong{color:#2d4036;font:1rem/1.45 var(--serif);font-weight:400}
+.endnote{margin-top:38px;padding:29px 0 0;border-top:1px solid var(--line)}
+.endnote .wish{margin-bottom:18px}
+.endnote .signoff{margin:22px 0 4px;color:var(--muted)}
+.signature{margin:0;color:var(--red);font:italic 2rem/1.1 var(--serif)}
+.signature small{display:block;margin-top:8px;color:#68756d;font:600 .72rem var(--sans);letter-spacing:.04em}
+.ps{margin-top:30px!important;padding:17px 18px;border-left:3px solid var(--gold);background:#faf3d8;color:#667268!important;font-size:.96rem!important;font-style:italic!important}
+.breakfast{display:grid;grid-template-columns:1fr auto;align-items:center;gap:18px;margin:0 clamp(24px,7vw,86px) 28px;padding:22px 24px;border:1px dashed #b99b2e;border-radius:4px;background:linear-gradient(110deg,#fff8d9,#f6edc4)}
+.breakfast-copy small{display:block;color:#8a741b;font-size:.6rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.breakfast-copy h2{margin:7px 0;color:#2e4034;font:1.45rem var(--serif)}.breakfast-copy p{margin:0;color:#687268;font:italic .88rem/1.5 var(--serif)}.breakfast-download{min-height:43px;padding:0 14px;border:0;border-radius:3px;background:var(--gold);color:#263427;font-size:.72rem;font-weight:800;cursor:pointer}.return-row{display:flex;justify-content:center;padding:0 20px 24px}.return-button{display:inline-flex;align-items:center;gap:8px;padding:10px 15px;border:1px solid #b9c3b8;border-radius:3px;background:transparent;color:var(--forest);font-size:.75rem;font-weight:750;cursor:pointer}.return-button:hover{background:#e9eee5}.qr-dialog{width:min(92vw,410px);padding:0;border:1px solid #d6c771;border-radius:8px;background:var(--paper);color:var(--ink);box-shadow:0 25px 90px #0007}.qr-dialog::backdrop{background:#07120fcc;backdrop-filter:blur(3px)}.qr-inner{padding:28px;text-align:center}.qr-inner h2{margin:0 0 8px;font:1.6rem var(--serif)}.qr-inner p{color:#68756d;font-size:.86rem;line-height:1.5}.qr-box{display:grid;place-items:center;min-height:240px;margin:18px 0;padding:10px;background:white;border:1px solid var(--line)}#qrCode canvas,#qrCode img{display:block;max-width:100%;height:auto!important}.qr-close{padding:10px 18px;border:0;border-radius:3px;background:var(--gold);font-weight:800;cursor:pointer}
+.controls{display:flex;justify-content:space-between;align-items:center;gap:15px;padding:19px clamp(24px,7vw,86px);border-top:1px solid #e3d58e;background:#f2eddc}
+.controls p{margin:0;color:#738077;font-size:.68rem;letter-spacing:.04em}
+.actions{display:flex;gap:8px}
+.action{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:42px;padding:0 14px;border:1px solid #c9c0ae;border-radius:3px;background:transparent;color:var(--forest);cursor:pointer;font-size:.75rem;font-weight:750;transition:background .18s,border .18s}
+.action:hover{border-color:#a88712;background:#faf3d8}
+.action svg{width:15px;height:15px}
+.toast{min-height:1.2em;padding:0 clamp(24px,7vw,86px) 14px;margin:0;background:#eee8dc;color:var(--red);font-size:.76rem}
+.footnote{display:flex;justify-content:space-between;gap:20px;padding:19px 5px 0;color:#a9b6a9;font-size:.63rem;letter-spacing:.1em;text-transform:uppercase}
+.credit{display:flex;align-items:center;justify-content:center;gap:9px;margin:11px 0 0;color:rgba(229,232,218,.52);font-size:.56rem;letter-spacing:.1em;text-align:center;text-transform:uppercase}
+.credit:before,.credit:after{content:"";width:21px;height:1px;background:rgba(227,189,54,.34)}
+.credit strong{color:rgba(227,189,54,.72);font-weight:750;letter-spacing:.14em}
+#confetti-layer{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:50}
+.confetti{position:absolute;top:-15px;width:7px;height:12px;animation:fall 2.6s ease-in forwards}
+@keyframes fall{to{transform:translate3d(var(--x),105vh,0) rotate(640deg);opacity:.12}}
+@media(max-width:760px){
+.shell{width:min(100% - 20px,1100px);padding-top:17px}.masthead{padding:0 3px 15px}.mast-meta{font-size:.57rem}
+.frame{padding:5px}.file-tab{left:22px;font-size:.54rem}
+.cover{min-height:690px;grid-template-columns:1fr;gap:26px;padding:88px 28px 36px;background:linear-gradient(160deg,#f6f1e7 0 75%,#eee6d7 75% 100%)}
+.cover h1{font-size:clamp(3.5rem,18vw,6rem)}
+.cover-deck{font-size:1.04rem;margin-top:22px}
+.cover-stamp{position:absolute;right:30px;bottom:35px;width:105px;opacity:.9}
+.stamp-letter{font-size:2.4rem}.stamp-top,.stamp-bottom{font-size:.43rem}
+.cover-ref{margin-top:30px;gap:18px}
+.open-file{margin-top:26px}
+.document-top{padding:28px 23px 18px}
+.route{margin:20px 20px 8px;padding:16px 14px;gap:8px}
+.route-stop strong{font-size:.92rem}.route-status{font-size:.6rem}
+.article-layout{grid-template-columns:1fr;gap:16px;padding:15px 22px 42px}
+.side-note{position:static;display:flex;align-items:center;gap:14px;padding:10px 12px;border-left:2px solid var(--gold);background:#eee8dc}
+.side-note .index{flex:0 0 auto;margin:0}.side-note blockquote{font-size:.9rem}.side-note .source{display:none}
+.letter-copy p{font-size:1rem;line-height:1.74}
+.letter-copy .quiet-break{margin:28px 0;padding:12px 0 12px 16px;font-size:1.12rem}
+.record-grid{grid-template-columns:1fr}
+.record-item:nth-last-child(-n+2){border-bottom:1px dashed #cfc2a8}
+.record-item:last-child{border-bottom:0}
+.exit-record{padding:23px 19px 17px}
+.exit-head h2{font-size:1.15rem}.exit-head span{font-size:.5rem}
+.breakfast{grid-template-columns:1fr;margin:0 20px 22px;padding:19px}.breakfast-download{width:100%}.return-row{padding-bottom:20px}.controls{align-items:flex-start;flex-direction:column;padding:17px 20px}
+.actions{width:100%}.action{flex:1;padding:0 9px;font-size:.7rem}
+.toast{padding-left:20px;text-align:left}
+.footnote{font-size:.54rem}
+.credit{flex-wrap:wrap;gap:6px;font-size:.5rem}
+}
+@media(max-width:390px){.brand{font-size:.58rem;letter-spacing:.1em}.brand-mark{width:30px;height:30px}.route-stop strong{font-size:.8rem}.route-dash svg{width:17px}.mast-meta{letter-spacing:.07em}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+body.exporting .controls,body.exporting .toast{display:none!important}
+body.exporting .folder{overflow:visible;border-radius:0}
+body.exporting .cover{display:none!important}
+body.exporting .case-content{display:block!important;opacity:1!important;animation:none!important;visibility:visible!important}
+body.exporting .route,body.exporting .exit-record,body.exporting .document-top{break-inside:avoid;page-break-inside:avoid}
+.action:disabled{opacity:.65;cursor:wait}
+</style>
+</head>
+<body>
+<a class="skip" href="#carta">Saltar a la carta</a>
+<div id="confetti-layer" aria-hidden="true"></div>
+<main class="shell">
+<header class="masthead">
+<div class="brand"><span class="brand-mark">FMG</span><span>Fábrica de Municiones de Granada<br>Almacén General · Archivo de equipo</span></div>
+<div class="mast-meta">Expediente afectivo<br>Verano · 2026</div>
+</header>
+<div class="frame">
+<div class="folder" id="folder">
+<div class="file-tab">FMG · Registro de salida · Almacén General</div>
+<section class="cover" id="cover" aria-labelledby="cover-title">
+<div class="cover-copy">
+<div class="eyebrow">Expediente de salida · 001</div>
+<h1 id="cover-title">Alejandra<span>deja huella.</span></h1>
+<p class="cover-deck">Hay salidas que se registran en Baan. Y otras que, por mucho que lo intentemos, <strong>no caben en ninguna casilla.</strong></p>
+<div class="cover-ref">
+<div>Destino<strong>Hacienda · en trámite</strong></div>
+<div>Estado<strong>Imposible de sustituir</strong></div>
+</div>
+<button class="open-file" id="openButton" type="button" aria-controls="carta">
+<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 7.5h6l2 2h8v9H4v-11Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M4 11h16" stroke="currentColor" stroke-width="1.7"/></svg>
+Consultar expediente
+</button>
+</div>
+<div class="cover-stamp" aria-hidden="true"><div class="stamp-inner"><span class="stamp-top">Fábrica de Municiones</span><span class="stamp-letter">FMG</span><span class="stamp-bottom">Siempre bienvenida</span></div></div>
+</section>
+<div class="case-content" id="caseContent">
+<div class="document-top">
+<div><div class="doc-label">Documento de despedida</div><div style="margin-top:7px;color:#748077;font:italic .9rem var(--serif)">Una compañera que se queda</div></div>
+<div class="doc-number">Ref. AG–001 / Conservar</div>
+</div>
+<div class="route" aria-label="Ruta de destino: Almacén General hacia Hacienda">
+<div class="route-stop"><span>Ubicación actual</span><strong>Almacén General</strong></div>
+<div class="route-dash" aria-hidden="true"><i></i><i></i><i></i><svg viewBox="0 0 24 24" fill="none"><path d="M4 12h15m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+<div class="route-stop"><span>Próximo destino</span><strong>Agencia Tributaria</strong></div>
+<div class="route-status"><b>Estado del traslado:</b> pendiente de conseguir la plaza por la que tanto estás luchando <button class="incident-trigger" id="incidentButton" type="button">Consultar incidencia aleatoria</button><span class="incident-message" id="incidentMessage" role="status" aria-live="polite">Pulsa para consultar el parte del día.</span></div>
+</div>
+<div class="article-layout" id="carta">
+<aside class="side-note">
+<p class="index">Nota al margen</p>
+<blockquote>«Muchas ganas de mandar a Baan a tomar por culo.»<span class="source">Incidencia compartida · 2026</span></blockquote>
+</aside>
+<article class="letter-copy" id="letterCopy">
+<p class="greeting">Querida Alejandra:</p>
+<p>Quién nos iba a decir este verano que te íbamos a coger tanto cariño y que ahora nos ibas a abandonar… Y encima para irte a Hacienda, con lo bien que te hemos tratado nosotros.</p>
+<p>La verdad es que me da mucha pena que te vayas. En estos meses hemos compartido muchas risas, mucho trabajo, algún que otro agobio y, sobre todo, muchas ganas de mandar a Baan a tomar por culo.</p>
+<p>Quería darte las gracias por toda la ayuda que me has dado durante este tiempo, por tu paciencia, por los buenos ratos y por haber sido tan buena compañera. Da gusto trabajar con personas como tú y, aunque no llevemos años trabajando juntos, te he cogido muchísimo aprecio.</p>
+<p>Sabes que, por mi parte, aquí siempre tendrás las puertas abiertas si algún día quieres volver. Pero, aunque me dé pena que te vayas, mucho más feliz me haría que no tuvieras que volver porque has conseguido esa plaza por la que tanto estás estudiando y luchando.</p>
+<p>Espero que todo ese esfuerzo merezca la pena y que dentro de un tiempo podamos celebrar que tenemos una amiga en Hacienda (que nunca viene mal tener contactos).</p>
+<p>Eso sí, acuérdate de nosotros cuando estés allí. Sobre todo cuando llegue la declaración de la renta, que nosotros te hemos tratado muy bien y nunca te hemos pedido nada a cambio… Hasta ahora.</p>
+<p class="quiet-break">Y como buenos administrativos del Almacén General, vamos a dejar registrada tu salida:</p>
+<section class="exit-record" aria-labelledby="exitTitle">
+<div class="exit-head"><h2 id="exitTitle">Registro de salida</h2><span>Almacén<br>General</span></div>
+<div class="record-grid">
+<div class="record-item"><small>Motivo de salida</small><strong>Cumplir sus sueños.</strong></div>
+<div class="record-item"><small>Estado del material</small><strong>En perfectas condiciones.</strong></div>
+<div class="record-item"><small>Ubicación de destino</small><strong>Agencia Tributaria (esperemos que pronto).</strong></div>
+<div class="record-item"><small>Posibilidad de devolución</small><strong>Siempre.</strong></div>
+<div class="record-item"><small>Incidencia</small><strong>Se le va a echar mucho de menos.</strong></div>
+<div class="record-item"><small>Valoración</small><strong>Imposible de contabilizar en Baan.</strong></div>
+</div>
+</section>
+<div class="endnote">
+<p>Fuera de bromas, espero que te vaya genial, que consigas todo lo que te propongas y que no te olvides de nosotros. Aquí dejas a unos compañeros que te tienen muchísimo cariño y, en mi caso, a un amigo.</p>
+<p class="wish">Te deseo toda la suerte del mundo, aunque estoy seguro de que con tus ganas y tu esfuerzo vas a conseguirlo.</p>
+<p>Y cuando consigas la plaza, acuérdate de venir a vernos, que como mínimo te tendrás que pagar un desayuno.</p>
+<p>Gracias por todo, Alejandra. Se te va a echar mucho de menos.</p>
+<p class="signoff">Un abrazo enorme,</p>
+<p class="signature">Pablo,<small>tu compañero de almacén y futuro contribuyente.</small></p>
+<p class="ps"><strong>P. D.:</strong> Si algún día me llega una inspección de Hacienda, retiraré inmediatamente todo lo bonito que he escrito en esta carta.</p>
+</div>
+</article>
+</div>
+<section class="breakfast" aria-label="Vale por un desayuno"><div class="breakfast-copy"><small>Vale especial · Canjeable por Alejandra</small><h2>Vale por un desayuno</h2><p>Para celebrar esa plaza cuando llegue. Sin fecha de caducidad; el café y las tostadas corren de mi cuenta.</p></div><button class="breakfast-download" id="breakfastButton" type="button">Descargar vale</button></section>
+<div class="return-row"><button class="return-button" id="returnButton" type="button">← Volver al almacén</button></div>
+<div class="controls">
+<p>Documento personal · Una copia para Alejandra</p>
+<div class="actions">
+<button class="action" id="copyButton" type="button" aria-label="Copiar todo el texto de la carta">
+<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="8" y="8" width="12" height="12" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M16 8V5a1.5 1.5 0 0 0-1.5-1.5h-9A1.5 1.5 0 0 0 4 5v9A1.5 1.5 0 0 0 5.5 15.5H8" stroke="currentColor" stroke-width="1.7"/></svg>Copiar carta</button>
+<button class="action" id="printButton" type="button" aria-label="Descargar la carta como PDF con el diseño de la página">
+<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 16v4h14v-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Descargar PDF</span></button>
+<button class="action" id="qrButton" type="button" aria-haspopup="dialog"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2v2h-2zM18 14h2v6h-6v-2" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>Ver QR</button>
+</div>
+</div>
+<p class="toast" id="toast" role="status" aria-live="polite"></p>
+</div>
+</div>
+<footer class="footnote"><span>Fábrica de Municiones de Granada · Almacén General</span><span>Salida registrada con cariño</span></footer>
+<div class="credit" aria-label="Carta de despedida preparada por UXEA Soluciones"><span>Una carta preparada con cariño por</span><strong>UXEA Soluciones</strong></div>
+</main>
+<dialog class="qr-dialog" id="qrDialog" aria-labelledby="qrTitle"><div class="qr-inner"><h2 id="qrTitle">Comparte esta carta</h2><p id="qrHelp">Escanea el código para abrir el expediente de Alejandra.</p><div class="qr-box"><div id="qrCode" aria-label="Código QR de esta página"></div></div><button class="qr-close" id="qrClose" type="button">Cerrar</button></div></dialog>
+<script>
+(()=>{
+const folder=document.getElementById('folder');
+const openButton=document.getElementById('openButton');
+const copyButton=document.getElementById('copyButton');
+const pdfButton=document.getElementById('printButton');
+const toast=document.getElementById('toast');
+const layer=document.getElementById('confetti-layer');
+const incidentButton=document.getElementById('incidentButton');
+const incidentMessage=document.getElementById('incidentMessage');
+const qrDialog=document.getElementById('qrDialog');
+let lastIncident=-1;
+const incidents=['Baan informa de que Alejandra ha sido reclasificada como material irreemplazable.','Se detecta una solicitud de desayuno pendiente de aprobación por Pablo.','Hacienda reclama un contacto; el Almacén General ya ha presentado candidatura.','Incidencia: exceso de buen humor en el puesto. Sin posibilidad de regularización.','La plaza sigue en trámite. El cariño del equipo ya está contabilizado.','Baan no encuentra código para valorar cuánto se la va a echar de menos.','Revisión anual: compañera excelente. Próxima revisión: cuando venga a desayunar.','Incidencia fiscal: Pablo declara pluriactividad y solicita a su amiga en Hacienda el descuento de buen compañero. Válido solo para el desayuno.'];
+function celebrate(){
+const colors=['#ad4d45','#c7a46b','#8c9c82','#ded2b8','#edf0d8'];
+for(let i=0;i<42;i++){
+const bit=document.createElement('i');
+bit.className='confetti';
+bit.style.left=(Math.random()*100)+'vw';
+bit.style.background=colors[i%colors.length];
+bit.style.borderRadius=i%4===0?'50%':'1px';
+bit.style.setProperty('--x',(Math.random()*150-75)+'px');
+bit.style.animationDelay=(Math.random()*.35)+'s';
+layer.appendChild(bit);
+setTimeout(()=>bit.remove(),3000);
+}
+}
+openButton.addEventListener('click',()=>{
+folder.classList.add('open');
+celebrate();
+document.getElementById('carta').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'});
+});
+incidentButton.addEventListener('click',()=>{let index;do{index=Math.floor(Math.random()*incidents.length)}while(incidents.length>1&&index===lastIncident);lastIncident=index;incidentMessage.textContent=incidents[index]});
+document.getElementById('returnButton').addEventListener('click',()=>{folder.classList.remove('open');window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});openButton.focus({preventScroll:true})});
+document.getElementById('breakfastButton').addEventListener('click',()=>{const svg=`<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650"><rect width="1200" height="650" rx="28" fill="#f5f0e5"/><rect x="18" y="18" width="1164" height="614" rx="20" fill="none" stroke="#d1ad24" stroke-width="5" stroke-dasharray="15 12"/><circle cx="92" cy="325" r="38" fill="#142824"/><circle cx="1108" cy="325" r="38" fill="#142824"/><text x="600" y="145" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" letter-spacing="8" fill="#8a741b">FMG · ALMACÉN GENERAL</text><text x="600" y="290" text-anchor="middle" font-family="Georgia,serif" font-size="76" fill="#142824">Vale por un desayuno</text><text x="600" y="365" text-anchor="middle" font-family="Georgia,serif" font-size="32" font-style="italic" fill="#59675d">Para Alejandra, cuando consiga su plaza</text><line x1="270" y1="430" x2="930" y2="430" stroke="#d9d0bf" stroke-width="2"/><text x="600" y="490" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" fill="#59675d">Café y tostadas corren de mi cuenta · Sin fecha de caducidad</text><text x="600" y="555" text-anchor="middle" font-family="Georgia,serif" font-size="28" font-style="italic" fill="#ad4d45">Pablo, tu futuro contribuyente</text></svg>`;const link=document.createElement('a');link.href=URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'}));link.download='vale-desayuno-Alejandra.svg';link.click();setTimeout(()=>URL.revokeObjectURL(link.href),1000);toast.textContent='Vale descargado. Puedes abrirlo o imprimirlo.'});
+document.getElementById('qrClose').addEventListener('click',()=>qrDialog.close());
+document.getElementById('qrButton').addEventListener('click',async()=>{qrDialog.showModal();const help=document.getElementById('qrHelp');const box=document.getElementById('qrCode');box.replaceChildren();help.textContent='Preparando el código de acceso a esta página…';try{if(!window.QRCode){await new Promise((resolve,reject)=>{const script=document.createElement('script');script.src='https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js';script.onload=resolve;script.onerror=()=>reject(new Error('QR no disponible'));document.head.appendChild(script)})}new QRCode(box,{text:location.href,width:220,height:220,colorDark:'#142824',colorLight:'#ffffff',correctLevel:QRCode.CorrectLevel.H});help.textContent='Escanea el código para abrir el expediente de Alejandra.'}catch{help.textContent='No se pudo cargar el generador QR. Comprueba la conexión e inténtalo de nuevo.'}});
+copyButton.addEventListener('click',async()=>{
+const text=document.getElementById('letterCopy').innerText;
+try{await navigator.clipboard.writeText(text);toast.textContent='Carta copiada. Ya puedes pegarla donde quieras.'}
+catch{
+const field=document.createElement('textarea');field.value=text;field.style.position='fixed';field.style.opacity='0';document.body.appendChild(field);field.select();document.execCommand('copy');field.remove();toast.textContent='Carta copiada.'
+}
+});
+pdfButton.addEventListener('click',async()=>{
+if(pdfButton.disabled)return;
+const label=pdfButton.querySelector('span');
+const wasOpen=folder.classList.contains('open');
+pdfButton.disabled=true;
+label.textContent='Preparando PDF…';
+toast.textContent='Preparando la carta completa con su diseño…';
+const loadScript=(src)=>new Promise((resolve,reject)=>{const script=document.createElement('script');script.src=src;script.crossOrigin='anonymous';script.referrerPolicy='no-referrer';script.onload=resolve;script.onerror=()=>reject(new Error('No se pudo cargar una herramienta de exportación.'));document.head.appendChild(script)});
+try{
+if(typeof window.html2canvas!=='function')await loadScript('https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js');
+if(!(window.jspdf&&window.jspdf.jsPDF))await loadScript('https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.0/jspdf.umd.min.js');
+if(typeof window.html2canvas!=='function')throw new Error('No se pudo cargar el capturador de la página.');
+if(!(window.jspdf&&window.jspdf.jsPDF))throw new Error('No se pudo cargar el generador PDF.');
+folder.classList.add('open');
+document.body.classList.add('exporting');
+await new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve)));
+const captureWidth=folder.scrollWidth;
+const captureHeight=folder.scrollHeight;
+const canvas=await window.html2canvas(folder,{scale:2,useCORS:true,allowTaint:false,backgroundColor:'#f5f0e5',logging:false,scrollX:0,scrollY:0,width:captureWidth,height:captureHeight,windowWidth:captureWidth,windowHeight:captureHeight,onclone:(clonedDocument)=>{
+clonedDocument.body.classList.add('exporting');
+const clonedFolder=clonedDocument.getElementById('folder');
+if(clonedFolder){clonedFolder.classList.add('open');clonedFolder.style.width=captureWidth+'px';clonedFolder.style.height='auto';clonedFolder.style.overflow='visible'}
+const clonedContent=clonedDocument.getElementById('caseContent');
+if(clonedContent){clonedContent.style.display='block';clonedContent.style.opacity='1';clonedContent.style.animation='none';clonedContent.style.visibility='visible'}
+const clonedCover=clonedDocument.getElementById('cover');
+if(clonedCover)clonedCover.style.display='none';
+}});
+const {jsPDF}=window.jspdf;
+const pdf=new jsPDF({orientation:'portrait',unit:'mm',format:'a4',compress:true});
+const pageWidth=210,pageHeight=297;
+const pagePixelHeight=Math.floor(canvas.width*pageHeight/pageWidth);
+const pageCanvas=document.createElement('canvas');
+pageCanvas.width=canvas.width;pageCanvas.height=pagePixelHeight;
+const pageContext=pageCanvas.getContext('2d',{alpha:false});
+const pageCount=Math.ceil(canvas.height/pagePixelHeight);
+for(let page=0;page<pageCount;page++){
+pageContext.fillStyle='#f5f0e5';pageContext.fillRect(0,0,pageCanvas.width,pageCanvas.height);
+const sourceY=page*pagePixelHeight;
+const sourceHeight=Math.min(pagePixelHeight,canvas.height-sourceY);
+pageContext.drawImage(canvas,0,sourceY,canvas.width,sourceHeight,0,0,canvas.width,sourceHeight);
+if(page>0)pdf.addPage('a4','portrait');
+pdf.addImage(pageCanvas.toDataURL('image/jpeg',.97),'JPEG',0,0,pageWidth,pageHeight,undefined,'FAST');
+}
+pdf.save('Alejandra-expediente-de-salida.pdf');
+toast.textContent='PDF descargado con toda la carta y su diseño, distribuida en '+pageCount+' página'+(pageCount===1?'':'s')+'.';
+}catch(error){
+console.error(error);
+toast.textContent='No se pudo generar el PDF. Comprueba tu conexión e inténtalo de nuevo.';
+}finally{
+document.body.classList.remove('exporting');
+if(!wasOpen)folder.classList.remove('open');
+pdfButton.disabled=false;
+label.textContent='Descargar PDF';
+}
+});
+})();
+</script>
+</body>
+</html>
